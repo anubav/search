@@ -1,0 +1,140 @@
+#header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+#header #header-logo {
+  float: left;
+  width: 70px;
+  margin-left: 10px;
+}
+#header #header-links {
+  float: right;
+  margin-right: 30px;
+}
+#header #header-links .header-link {
+  padding-left: 5px;
+  padding-right: 5px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  text-decoration: none;
+}
+#header #header-links .header-link:hover {
+  text-decoration: underline;
+}
+
+#title {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid lightgray;
+}
+#title p {
+  color: #db3b31;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  padding-left: 40px;
+}
+
+#search {
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#search #logo {
+  width: 270px;
+  margin-bottom: 20px;
+}
+#search div {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#search #searchBar {
+  width: 43%;
+  height: 45px;
+  padding-left: 30px;
+  border: 0.8px solid lightgray;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+#search #searchBar:focus {
+  outline: none; /* turn off outline on focus */
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+#search .searchButton {
+  background-color: #f8f9fa;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 5px;
+}
+#search .searchButton:hover {
+  border: 0.8px solid lightgray;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#aSearch {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 170px;
+  left: 50px;
+  width: 100%;
+}
+#aSearch #aSearchFields {
+  display: grid;
+  grid-column-gap: 10px;
+  grid-row-gap: 15px;
+  grid-template-columns: 160px 600px 300px;
+  margin-top: 20px;
+}
+#aSearch #aSearchFields .aSearchTitle {
+  margin: auto 0 auto 0;
+  font-size: small;
+}
+#aSearch #aSearchFields .aSearchBar {
+  width: 560px;
+  font-size: 14px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 20px;
+  margin-left: 5px;
+  border: 1px solid lightgray;
+}
+#aSearch #aSearchFields .aSearchBar:focus {
+  outline: none; /* turn off outline on focus */
+  box-shadow: 0px 1px 2px #488af1, 0px 1px 2px #488af1, 0px 1px 2px #488af1, 0px 1px 2px #488af1;
+}
+#aSearch #aSearchFields #aSearchButton {
+  background-color: #488af1;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 11px;
+  border: 0.8px solid #488af1;
+  border-radius: 2px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  float: right;
+}
+#aSearch #aSearchFields #aSearchButton:hover {
+  border: 0.8px solid black;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/*# sourceMappingURL=search.css.map */
